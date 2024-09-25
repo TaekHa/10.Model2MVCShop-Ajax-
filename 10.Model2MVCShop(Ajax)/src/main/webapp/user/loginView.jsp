@@ -73,6 +73,8 @@
 									$(window.parent.frames["topFrame"].document.location).attr("href","/layout/top.jsp");
 									$(window.parent.frames["leftFrame"].document.location).attr("href","/layout/left.jsp");
 									$(window.parent.frames["rightFrame"].document.location).attr("href","/user/getUser?userId="+JSONData.userId);
+// 									$(window.parent.frames["rightFrame"].document.location).attr("href","/index.jsp");
+//									어떻게 하면 자연스러운 홈페이지처럼 만들 수 있을까? -> welcomePage를 고민해봐야할지도
 									
 									//==> 방법 1 , 2 , 3 결과 학인
 								}else{
